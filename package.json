@@ -1,7 +1,7 @@
 {
   "name": "news-scraper",
   "version": "1.0.0",
-  "description": "Rutgers Coding Bootcamp Week 18 Homework",
+  "description": "An application for scraping news and storing it in a mongoDB",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,21 +9,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/a-murph/News-Scraper.git"
+    "url": "git+https://github.com/jackellis520/mongo-news-scraper.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/a-murph/News-Scraper/issues"
+    "url": "https://github.com/jackellis520/mongo-news-scraper/issues"
   },
-  "homepage": "https://github.com/a-murph/News-Scraper#readme",
+  "homepage": "https://github.com/jackellis520/mongo-news-scraper#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
     "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.3",
+    "handlebars": ">=4.0.14",
     "express-handlebars": "^3.0.0",
-    "mongoose": "^5.2.13",
+    "mongoose": "^5.7.5",
+    "lodash": ">=4.17.13",
     "request": "^2.88.0"
   }
 }
