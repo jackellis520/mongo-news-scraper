@@ -1,0 +1,121 @@
+/* resetting bootstrap styling */
+*, ::after, ::before {
+    box-sizing: unset ;
+}
+
+/* entire body / container */
+body {
+	background: #191919;
+	color: #ededed;
+	font-family: 'Montserrat', sans-serif;
+}
+.page-container {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+}
+.main-content {
+	/* sticky footer */
+	display: flex; 
+	justify-content: center;
+}
+
+/* navbar */
+.navigation {
+	height: 5vw;
+	width: 100%;
+	min-height: 40px;
+	background-color: rgba(25, 25, 25, 0.9);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: absolute;
+	top: 0px;
+	z-index: 10;
+}
+
+.home-link{
+	height: 45px;
+	width: 12vw;
+	position: relative;
+	margin-left: 15px;
+	min-width: 140px;
+}
+
+.logo-img{
+	height: auto;
+	width: 12vw;
+	min-width: 140px;
+}
+
+/* jumbotron */
+.jumbotron {
+	height: 90vh;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0px;
+	position: relative;
+	top: 0px;
+	margin-bottom: 100px;
+}
+.jumbotron-image {
+	height: 100%;
+	width: 100vw;
+	width: 100%;
+	object-fit: cover;
+	top: 0px;
+}
+.jumbotron-overlay {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(19, 19, 19, 0.65);
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.text-button-container{
+	height: 200px;
+	margin-top: 75px;
+	z-index: 9;
+	display: flex;
+	flex-direction: column;
+}
+
+.button-container{
+	display: flex;
+	margin-top: 25px;
+	width: 100%;
+	justify-content: center;
+}
+
+#scrape-button {
+	color: #ededed;
+	width: 30%;
+	background-color: rgba(25, 25, 25, 0);
+	font-size: 1.2vw;
+	padding: 7px 20px 7px 20px;
+	cursor: pointer;
+	margin-right: 10px;
+}
+#archive-button {
+	color: #ededed;
+	width: 30%;
+	background-color: rgba(25, 25, 25, 0);
+	font-size: 1.2vw;
+	padding: 7px 20px 7px 20px;
+	cursor: pointer;
+	margin-left: 10px;
+}
+.jumbotron-overlay h1 {
+	font-weight: bold;
+	font-size: 3.0vw;
+}
+
+.jumbotron-overlay h2 {
+	font-weight: bold;
+	font-size: 3.0vw;
+	margin-top: 10px;
+}
